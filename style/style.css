@@ -1,0 +1,33 @@
+.debug {
+  border: 1px solid black;
+  background-color: rgba(194, 16, 16, 0.5);
+}
+
+
+header .navbar .container-fluid img {
+  width: 50px;
+}
+
+nav {
+  height: 100%;
+  max-width: 1500px;
+  width: 100%;
+}
+
+header {
+  height: 80px;
+  background-color: black;
+  width: 100%;
+}
+
+.main-wrapper {
+  height: calc(100vh - 80px);
+}
+
+aside {
+  width: 80px;
+  height: 100%;
+}
+
+
+/* MEDIA QUERY */
