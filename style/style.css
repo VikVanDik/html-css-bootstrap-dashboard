@@ -3,11 +3,6 @@
   background-color: rgba(194, 16, 16, 0.5);
 }
 
-
-header .navbar .container-fluid img {
-  width: 50px;
-}
-
 nav {
   height: 100%;
   max-width: 1500px;
@@ -23,12 +18,18 @@ header {
 .main-wrapper {
   height: 100vh;
   padding-top: 80px;
-  overflow: hidden;
 }
 
 aside {
   width: 80px;
   height: 100%;
+  background-image: url("/img/sidebar-bg.png");
+  background-color: #051E34;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
 }
 
 .content {
@@ -37,7 +38,13 @@ aside {
   height: 100%;
 }
 
+.logo-big {
+  width: 150px;
+}
 
+.logo-small {
+  width: 50px;
+}
 
 /* MEDIA QUERY */
 
