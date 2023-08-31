@@ -34,6 +34,7 @@ aside {
 .content {
   width: calc(100% - 80px);
   overflow: auto;
+  height: 100%;
 }
 
 
