@@ -74,9 +74,13 @@
           <div class="new order-3 p-2">
             <span class="text-white">Nuovo studente</span>
             <span>
-              <button class="btn btn-outline-light btn-v fs-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">+</button>
-              <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-              <div class="offcanvas-header">
+              <button class="btn btn-outline-light fs-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+              
+                <i class="fa-solid fa-plus"></i>
+              
+              </button>
+              <div class="offcanvas offcanvas-end w-100" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -110,7 +114,9 @@
             <div class="col-12 col-md-8 debug h-100 ">
               <div class="card mb-3">
                 <div class="card-header">
-                  Prossime classi
+                  <h2>
+                    Prossime classi
+                  </h2>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Special title treatment</h5>
@@ -120,7 +126,9 @@
               </div>
               <div class="card mb-3">
                 <div class="card-header">
-                  F.A.Q.
+                  <h2>
+                    F.A.Q.
+                  </h2>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Special title treatment</h5>
@@ -132,13 +140,24 @@
             <div class="col-12 col-md-4 debug ">
               <div class="card mb-3">
                 <div class="card-header">
-                  Todo
+                  <h2>
+                    Todo
+                  </h2>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                      <label class="form-check-label" for="firstCheckbox">Kick-off nuove classi</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                      <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe #75 </label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                      <label class="form-check-label" for="thirdCheckbox">Controllare username Github studenti</label>
+                    </li>
+                  </ul>
               </div>
               <div class="card mb-3">
               
