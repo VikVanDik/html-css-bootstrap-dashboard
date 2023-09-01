@@ -50,7 +50,7 @@
     </nav>
   </header>
   <main>
-    <div class="main-wrapper debug d-flex ">
+    <div class="main-wrapper  d-flex ">
       <aside class="d-flex flex-column justify-content-between text-white ">
         <div class="utilities">
           <a href="">
@@ -69,8 +69,8 @@
       </aside>
 
 
-      <div class="content debug">
-        <div class="student-section justify-content-between debug d-md-flex ">
+      <div class="content ">
+        <div class="student-section justify-content-between  d-md-flex ">
           <div class="new order-3 p-2">
             <span class="text-white">Nuovo studente</span>
             <span>
@@ -93,14 +93,14 @@
           <div class="boolean w-40 order-1 fs-2 text-white text-capitalize d-flex flex-column p-2">
             <div class="pb-2">
               boolean
-              <span class="badge rounded-pill text-bg-v fs-10 bc-bg">Primary</span>
+              <span class="badge rounded-pill text-bg-v fs-10 bc-bg fw-light">Piano blaze</span>
             </div>
             <div class="fs-10 pb-2">
-              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v">Primary</span>
-              <span class="m-3-v">>></span>
-              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v">Primary</span>
-              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v">Primary</span>
-              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v">Primary</span>
+              <span class="badge rounded-pill bc-bg fs-10 m-3-v fw-light align-middle">3 app</span>
+              <span class="m-3-v fw-light align-middle"><i class="fa-solid fa-angles-right"></i></span>
+              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle">Boolean mobile app</span>
+              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle">Boolean web app</span>
+              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle">Boolean blog app</span>
             </div>
 
           </div>
@@ -109,9 +109,9 @@
             <div class="fs-3">125</div>
           </div>
         </div>
-        <div class="container-fluid debug pt-3">
-          <div class="row row-cols-1 row-cols-md-2 h-100 ">
-            <div class="col-12 col-md-8 debug h-100 ">
+        <div class="container-fluid  pt-3">
+          <div class="row row-cols-1 row-cols-lg-2 h-100 ">
+            <div class="col-12 col-lg-8  h-100 ">
               <div class="card mb-3">
                 <div class="card-header">
                   <h2>
@@ -119,9 +119,60 @@
                   </h2>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="row" class="w-v-60">1</th>
+                        <td class="w-v-100">Mark</td>
+                        <td>Otto</td>
+                        <td class="d-none">@mdo</td>
+                        <td>@mdo</td>
+                      </tr>
+                  
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="col" class=" align-middle">
+                      <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
+                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                    </th>
+                    <th scope="col" class="fw-normal fs-10 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
+                    <th scope="col" class="fw-normal fs-6 align-middle d-none d-md-table-cell w-v-100">20%</th>
+                    <th scope="col" class="fw-normal fs-6 align-middle w-v-100">
+                      <span class="badge bg-danger">Danger</span>
+                    </th>
+                    <th scope="col" class="fw-normal fs-6 w-v-100">
+                      <a href="#" class="btn btn-table-v">
+                        <i class="fa-solid fa-pencil"></i>
+                      </a>
+                      <a href="#" class="btn btn-table-v">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </th>
+                  </tr>
+                 
+                  <tr>
+                    <th scope="row" class="w-v-60">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td class="d-none d-md-table-cell">@fat</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="w-v-60 fw-normal">3</th>
+                    <td>Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="w-v-60">3</th>
+                    <td>Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              
+                </table>
                 </div>
               </div>
               <div class="card mb-3">
@@ -131,13 +182,42 @@
                   </h2>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Come aggiungere un nuovo studente?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Come posso accedere alle informazioni del mio account?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Posso usare questa dashboard da mobile?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-4 debug ">
+            <div class="col-12 col-lg-4  ">
               <div class="card mb-3">
                 <div class="card-header">
                   <h2>
@@ -162,9 +242,21 @@
               <div class="card mb-3">
               
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <div class="card w-100" style="width: 18rem;">
+                    <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>Utenti attivi</h5>
+                      <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                    </div>
+                    <div class="card w-100 border-0 border-top rounded-0" style="width: 18rem;">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item fs-14">Gennaio: 1200</li>
+                        <li class="list-group-item fs-14">Febbraio: 800</li>
+                        <li class="list-group-item fs-14">Marzo: 1500</li>
+                        <li class="list-group-item py-3 fs-10"><a href="#">Visualizza report approfondito</a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
