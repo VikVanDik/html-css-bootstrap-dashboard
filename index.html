@@ -22,8 +22,9 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <form class="w-100" role="search">
+        <form class="w-100 position-relative" role="search">
           <input class="form-control bc-gray" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass position-absolute"></i>
         </form>
         <div class="" id="navbarNavDropdown">
           <ul class="navbar-nav">
@@ -59,7 +60,7 @@
             <div class="home text-center"><i class="fa-solid fa-house my-3 "></i><span class="d-none d-md-inline text-capitalize p-2"> home</span></div>
           </a>
           <a href="">
-            <div class="stats text-center"><i class="fa-solid fa-chart-simple"></i><span class="d-none d-md-inline text-capitalize p-2"> stats</span></div>
+            <div class="stats text-center"><i class="fa-solid fa-chart-simple my-3"></i><span class="d-none d-md-inline text-capitalize p-2"> stats</span></div>
           </a>
           <a href="">
             <div class="signal text-center"><i class="fa-solid fa-signal my-3"></i><span class="d-none d-md-inline text-capitalize p-2"> signals</span></div>
@@ -170,14 +171,15 @@
           <div class="boolean w-40 order-1 fs-2 text-white text-capitalize d-flex flex-column p-2">
             <div class="pb-2">
               boolean
-              <span class="badge rounded-pill text-bg-v fs-10 bc-bg fw-light">Piano blaze</span>
+              <a href=""><span class="badge rounded-pill text-bg-v fs-10 bc-bg fw-light">Piano blaze</span></a>
             </div>
             <div class="fs-10 pb-2">
-              <span class="badge rounded-pill bc-bg fs-10 m-3-v fw-light align-middle">3 app</span>
+              <a href=""><span class="badge rounded-pill bc-bg fs-10 m-3-v fw-light align-middle">3 app</span></a>
               <span class="m-3-v fw-light align-middle"><i class="fa-solid fa-angles-right"></i></span>
-              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle">Boolean mobile app</span>
-              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle">Boolean web app</span>
-              <span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle">Boolean blog app</span>
+              <a href=""><span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle d-lg-none">+</span></a>
+              <a href=""><span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle d-none d-lg-inline">Boolean mobile app</span></a>
+              <a href=""><span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle d-none d-lg-inline">Boolean web app</span></a>
+              <a href=""><span class="badge rounded-pill bc-bg text-bg-v fs-10 m-3-v fw-light align-middle d-none d-lg-inline">Boolean blog app</span></a>
             </div>
 
           </div>
@@ -216,7 +218,7 @@
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
                     <th scope="col" class="fw-normal fs-6 align-middle w-v-100">
-                      <span class="badge bg-danger">Danger</span>
+                      <span class="badge bg-danger">Failed</span>
                     </th>
                     <th scope="col" class="fw-normal fs-6 w-v-100">
                       <a href="#" class="btn btn-table-v">
@@ -230,7 +232,26 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 76</p>
+                    </th>
+                    <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">13 Mar 2021</th>
+                    <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
+                    <th scope="col" class="fw-normal fs-6 align-middle w-v-100">
+                      <span class="badge bg-danger">Failed</span>
+                    </th>
+                    <th scope="col" class="fw-normal fs-6 w-v-100">
+                      <a href="#" class="btn btn-table-v">
+                        <i class="fa-solid fa-pencil"></i>
+                      </a>
+                      <a href="#" class="btn btn-table-v">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th scope="col" class=" align-middle">
+                      <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
+                      <p class="d-inline align-middle fw-normal">Classe 77</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
@@ -249,7 +270,7 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 78</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
@@ -268,7 +289,7 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 79</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
@@ -287,7 +308,7 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 80</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
@@ -306,7 +327,7 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 81</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
@@ -325,7 +346,7 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 82</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
@@ -344,7 +365,7 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 83</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
@@ -363,31 +384,12 @@
                   <tr>
                     <th scope="col" class=" align-middle">
                       <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
+                      <p class="d-inline align-middle fw-normal">Classe 84</p>
                     </th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
                     <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
                     <th scope="col" class="fw-normal fs-6 align-middle w-v-100">
-                      <span class="badge bg-danger">Danger</span>
-                    </th>
-                    <th scope="col" class="fw-normal fs-6 w-v-100">
-                      <a href="#" class="btn btn-table-v">
-                        <i class="fa-solid fa-pencil"></i>
-                      </a>
-                      <a href="#" class="btn btn-table-v">
-                        <i class="fa-solid fa-trash"></i>
-                      </a>
-                    </th>
-                  </tr>
-                  <tr>
-                    <th scope="col" class=" align-middle">
-                      <img src="./img/class-avatar.jpg" alt="avatar" class="w-30 align-middle">
-                      <p class="d-inline align-middle fw-normal">Classe 75</p>
-                    </th>
-                    <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">18 Feb 2021</th>
-                    <th scope="col" class="fw-normal fs-14 align-middle d-none d-md-table-cell w-v-100">20%</th>
-                    <th scope="col" class="fw-normal fs-6 align-middle w-v-100">
-                      <span class="badge bg-danger">Danger</span>
+                      <span class="badge bg-success">Done</span>
                     </th>
                     <th scope="col" class="fw-normal fs-6 w-v-100">
                       <a href="#" class="btn btn-table-v">

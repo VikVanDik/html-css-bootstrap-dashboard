@@ -17,6 +17,31 @@ nav {
   width: 20px;
 }
 
+.boolean a {
+  text-decoration: none;
+}
+
+aside a div:hover {
+  background-color: #07355e;
+}
+
+.fa-bell {
+  color: #FF8F00;
+}
+
+.fa-magnifying-glass {
+  top: 10px;
+  left: 10px;
+}
+
+.boolean a span:hover {
+  background-color: #0e3d80;
+}
+
+.navbar div form input {
+  padding-left: 30px;
+}
+
 .bc-bg {
   background-color: #165BBA;
 }
