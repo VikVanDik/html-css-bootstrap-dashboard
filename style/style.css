@@ -9,7 +9,6 @@ body {
 
 nav {
   height: 100%;
-  max-width: 1500px;
   width: 100%;
 }
 
@@ -81,8 +80,7 @@ header {
 }
 
 .main-wrapper {
-  height: 100vh;
-  padding-top: 80px;
+  height: calc(100vh - 80px);
 }
 
 aside {
